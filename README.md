@@ -1,4 +1,4 @@
-# mini-base
+# mini-feed
 **Reference: https://testdriven.io/courses/auth-flask-react/react-and-docker/**
 
 Basic code for starting a new project
