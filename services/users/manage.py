@@ -34,8 +34,8 @@ def create_users(num_users):
 def create_tweets(num_tweets):
     users = User.query.all()
     for user in users:
-        content = generate_random_string(140)
         for _ in range(num_tweets):
+            content = generate_random_string(140)
             tweet = Tweet(content=content, user_id=user.id)
             db.session.add(tweet)
 
